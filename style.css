@@ -59,12 +59,48 @@
 }
 
 /* box-sizing - добавление отступов не будет изменять начальный заданный размер элемента, отступы будут считаться "вовнутрь" элемента*/
-html {
-	box-sizing: border-box;
+.main_title {
+	font-family: "Rubic";
+	font-style: normal;
+	font-weight: 700;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	font-size: 1.5rem;
+	text-align: center;
+	background-color: #74B6FF;
 }
 
-*,
-*::before,
-*::after {
-	box-sizing: inherit;
+.picture_one {
+	padding-top: 2rem;
+}
+
+p {
+	font-family: "Rubic";
+	font-weight: 300;
+	padding-left: 30rem;
+	padding-right: 30rem;
+	padding-bottom: 2rem;
+	line-height: 1.7rem;
+	color: #2F353D;
+}
+
+h4 {
+	font-family: "Rubic";
+	font-weight: 600;
+	padding-left: 30rem;
+	padding-right: 30rem;
+	color: #17191C;
+}
+
+.list_items {
+	padding-left: 29rem;
+	padding-right: 30rem;
+	line-height: 1.7rem;
+	padding-bottom: 2rem;
+}
+
+.table {
+	padding-left: 30rem;
+	padding-right: 30rem;
+	line-height: 1.7rem;
 }
