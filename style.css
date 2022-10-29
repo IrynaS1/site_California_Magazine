@@ -1,91 +1,83 @@
-/* rubik-300 - cyrillic */
-@font-face {
-	font-family: 'Rubik';
-	font-style: normal;
-	font-weight: 300;
-	src: local(''),
-		url('../fonts/rubik-v21-cyrillic-300.woff2') format('woff2'),
-		/* Chrome 26+, Opera 23+, Firefox 39+ */
-		url('../fonts/rubik-v21-cyrillic-300.woff') format('woff');
-	/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* rubik-regular - cyrillic */
-@font-face {
-	font-family: 'Rubik';
-	font-style: normal;
-	font-weight: 400;
-	src: local(''),
-		url('../fonts/rubik-v21-cyrillic-regular.woff2') format('woff2'),
-		/* Chrome 26+, Opera 23+, Firefox 39+ */
-		url('../fonts/rubik-v21-cyrillic-regular.woff') format('woff');
-	/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* rubik-500 - cyrillic */
-@font-face {
-	font-family: 'Rubik';
-	font-style: normal;
-	font-weight: 500;
-	src: local(''),
-		url('../fonts/rubik-v21-cyrillic-500.woff2') format('woff2'),
-		/* Chrome 26+, Opera 23+, Firefox 39+ */
-		url('../fonts/rubik-v21-cyrillic-500.woff') format('woff');
-	/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* rubik-600 - cyrillic */
-@font-face {
-	font-family: 'Rubik';
-	font-style: normal;
-	font-weight: 600;
-	src: local(''),
-		url('../fonts/rubik-v21-cyrillic-600.woff2') format('woff2'),
-		/* Chrome 26+, Opera 23+, Firefox 39+ */
-		url('../fonts/rubik-v21-cyrillic-600.woff') format('woff');
-	/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* rubik-700 - cyrillic */
-@font-face {
-	font-family: 'Rubik';
-	font-style: normal;
-	font-weight: 700;
-	src: local(''),
-		url('../fonts/rubik-v21-cyrillic-700.woff2') format('woff2'),
-		/* Chrome 26+, Opera 23+, Firefox 39+ */
-		url('../fonts/rubik-v21-cyrillic-700.woff') format('woff');
-	/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* box-sizing - добавление отступов не будет изменять начальный заданный размер элемента, отступы будут считаться "вовнутрь" элемента*/
-.main_title {
+/*body styles*/
+.body {
 	font-family: "Rubic";
 	font-style: normal;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1.2;
+	color: #17191C;
+}
+
+/* header styles start*/
+.wrapper__header {
+	padding-top: 1.1rem;
+	padding-bottom: 1.1rem;
+	border-bottom: 0.16rem solid #DFE1E6;
+	margin-bottom: 3rem;
+
+}
+
+.header__navlist {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.nav__item__link {
+	font-weight: 400;
+	font-size: 1rem;
+	line-height: 1.5rem;
+	text-decoration: none;
+	color: #17191C;
+}
+
+.header__button {
+	background-color: #1874FF;
+	color: #FFFFFF;
+}
+
+/* header styles end*/
+
+/* main styles start*/
+.main__title {
 	font-weight: 700;
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
-	font-size: 1.5rem;
+	font-size: 1.7rem;
 	text-align: center;
 	background-color: #74B6FF;
 }
 
-.picture_one {
+.picture__one {
 	padding-top: 2rem;
 }
 
+.main__wrapper {
+	margin-left: 30rem;
+	margin-right: 34rem;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	font-weight: 500;
+	font-size: 1.2rem;
+}
+
+.p {}
+
+/*start of the old styles
 p {
-	font-family: "Rubic";
 	font-weight: 300;
 	padding-left: 30rem;
 	padding-right: 30rem;
 	padding-bottom: 2rem;
-	line-height: 1.7rem;
+	line-height: 2rem;
 	color: #2F353D;
+	max-width: 42rem;
+	font-size: 1.1rem;
 }
 
 h4 {
-	font-family: "Rubic";
 	font-weight: 600;
 	padding-left: 30rem;
 	padding-right: 30rem;
@@ -99,8 +91,18 @@ h4 {
 	padding-bottom: 2rem;
 }
 
-.table {
+.content__table {
 	padding-left: 30rem;
 	padding-right: 30rem;
 	line-height: 1.7rem;
 }
+ end of the old styles */
+
+.content__text-link {
+	text-decoration: none;
+}
+
+/* main styles end*/
+/* footer styles start*/
+
+/* footer styles start*/
