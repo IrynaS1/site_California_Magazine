@@ -1,106 +1,19 @@
-/* rubik-300 - cyrillic */
-@font-face {
-	font-family: 'Rubik';
-	font-style: normal;
-	font-weight: 300;
-	src: local(''),
-		url('../fonts/rubik-v21-cyrillic-300.woff2') format('woff2'),
-		/* Chrome 26+, Opera 23+, Firefox 39+ */
-		url('../fonts/rubik-v21-cyrillic-300.woff') format('woff');
-	/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+/*body styles*/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-/* rubik-regular - cyrillic */
-@font-face {
-	font-family: 'Rubik';
-	font-style: normal;
-	font-weight: 400;
-	src: local(''),
-		url('../fonts/rubik-v21-cyrillic-regular.woff2') format('woff2'),
-		/* Chrome 26+, Opera 23+, Firefox 39+ */
-		url('../fonts/rubik-v21-cyrillic-regular.woff') format('woff');
-	/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
 
-/* rubik-500 - cyrillic */
-@font-face {
-	font-family: 'Rubik';
-	font-style: normal;
-	font-weight: 500;
-	src: local(''),
-		url('../fonts/rubik-v21-cyrillic-500.woff2') format('woff2'),
-		/* Chrome 26+, Opera 23+, Firefox 39+ */
-		url('../fonts/rubik-v21-cyrillic-500.woff') format('woff');
-	/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
+/* header styles start*/
 
-/* rubik-600 - cyrillic */
-@font-face {
-	font-family: 'Rubik';
-	font-style: normal;
-	font-weight: 600;
-	src: local(''),
-		url('../fonts/rubik-v21-cyrillic-600.woff2') format('woff2'),
-		/* Chrome 26+, Opera 23+, Firefox 39+ */
-		url('../fonts/rubik-v21-cyrillic-600.woff') format('woff');
-	/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
+/* header styles end*/
 
-/* rubik-700 - cyrillic */
-@font-face {
-	font-family: 'Rubik';
-	font-style: normal;
-	font-weight: 700;
-	src: local(''),
-		url('../fonts/rubik-v21-cyrillic-700.woff2') format('woff2'),
-		/* Chrome 26+, Opera 23+, Firefox 39+ */
-		url('../fonts/rubik-v21-cyrillic-700.woff') format('woff');
-	/* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
+/* main styles start*/
 
-/* box-sizing - добавление отступов не будет изменять начальный заданный размер элемента, отступы будут считаться "вовнутрь" элемента*/
-.main_title {
-	font-family: "Rubic";
-	font-style: normal;
-	font-weight: 700;
-	padding-top: 0.5rem;
-	padding-bottom: 0.5rem;
-	font-size: 1.5rem;
-	text-align: center;
-	background-color: #74B6FF;
-}
 
-.picture_one {
-	padding-top: 2rem;
-}
+/* main styles end*/
+/* footer styles start*/
 
-p {
-	font-family: "Rubic";
-	font-weight: 300;
-	padding-left: 30rem;
-	padding-right: 30rem;
-	padding-bottom: 2rem;
-	line-height: 1.7rem;
-	color: #2F353D;
-}
-
-h4 {
-	font-family: "Rubic";
-	font-weight: 600;
-	padding-left: 30rem;
-	padding-right: 30rem;
-	color: #17191C;
-}
-
-.list_items {
-	padding-left: 29rem;
-	padding-right: 30rem;
-	line-height: 1.7rem;
-	padding-bottom: 2rem;
-}
-
-.table {
-	padding-left: 30rem;
-	padding-right: 30rem;
-	line-height: 1.7rem;
-}
+/* footer styles start*/
