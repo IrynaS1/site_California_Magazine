@@ -1,8 +1,8 @@
 /*body styles*/
 * {
 	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 }
 
 body {
@@ -14,11 +14,48 @@ body {
 
 
 /* header styles start*/
+.header__wrapper {
+	max-width: 90rem;
+	margin-bottom: 6rem;
+
+}
 
 /* header styles end*/
 
 /* main styles start*/
+.main-title__wrapper {
+	width: 100%;
+	height: 12rem;
+	margin-bottom: 3rem;
+	background-color: rgb(116, 182, 255, 0.15);
 
+}
+
+.main__title {
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 2.5rem;
+	line-height: 3rem;
+	text-align: center;
+	padding: 4rem 13rem 4rem 13rem;
+
+}
+
+.pic {
+	width: 1024px;
+	height: 646px;
+	margin-right: 13rem;
+	margin-bottom: 1.5rem;
+}
+
+
+.main-top__wrapper {
+	margin: 0 auto;
+	margin-right: 23rem;
+	margin-left: 23rem;
+
+}
 
 /* main styles end*/
 /* footer styles start*/
