@@ -35,7 +35,7 @@ body {
 	font-family: 'Rubik';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 2.5rem;
+	font-size: 3rem;
 	line-height: 3rem;
 	text-align: center;
 	padding: 4rem 13rem 4rem 13rem;
@@ -43,18 +43,111 @@ body {
 }
 
 .pic {
-	width: 1024px;
-	height: 646px;
-	margin-right: 13rem;
+	margin: 0 auto;
+	max-width: 64rem;
+
+}
+
+.pic-size {
+	width: 100%;
 	margin-bottom: 1.5rem;
 }
 
-
-.main-top__wrapper {
+.main-top__wrapper,
+.main-bottom__wrapper {
 	margin: 0 auto;
-	margin-right: 23rem;
-	margin-left: 23rem;
+	max-width: 44rem;
+}
 
+.content {
+	margin-bottom: 4rem;
+}
+
+.content-title {
+	margin-bottom: 1.5rem;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+
+.list-items {
+	padding-left: 1rem;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.1rem;
+	line-height: 1.9rem;
+}
+
+li::marker {
+	color: #1E1E1E;
+	font-size: 0.7rem;
+}
+
+li {
+	margin-bottom: 0.5rem;
+}
+
+.main-top__wrapper,
+.main-bottom__wrapper {
+	margin: 0 auto;
+	max-width: 44rem;
+}
+
+p {
+	margin-bottom: 4rem;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.1rem;
+	line-height: 1.9rem;
+}
+
+.paragraph-first {
+	margin-bottom: 1.5rem;
+	line-height: 2rem;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.1rem;
+}
+
+h4 {
+	margin-bottom: 1.5rem;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 1.5rem;
+	line-height: 2rem;
+}
+
+.paragraph-second {
+	margin-bottom: 5.5rem;
+	line-height: 1.9rem;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.1rem;
+}
+
+.paragraph-third {
+	margin-bottom: 3rem;
+	line-height: 1.9rem;
+	font-family: 'Rubik';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 1.1rem;
+}
+
+.pic-margin {
+	margin-bottom: 2.5rem;
+}
+
+a {
+	text-decoration: none;
+	color: #1874FF;
 }
 
 /* main styles end*/
